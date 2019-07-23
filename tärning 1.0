@@ -1,0 +1,8 @@
+import random
+min = 1
+max = 6
+repeat = True
+while repeat:
+    if input("vill du kasta en tärning? [ja/nej]\n") == ("ja"):
+        print("du slog: " + str(random.randint( min , max)))
+    else: repeat = False
